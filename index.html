@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlowCore Labs - Advanced Productivity Solutions</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; line-height: 1.6; color: #333; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        .nav { background: white; border-bottom: 1px solid #e5e5e5; padding: 1rem 0; }
+        .nav-content { display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 1.5rem; font-weight: bold; color: #2563eb; text-decoration: none; }
+        .nav-links { display: flex; gap: 2rem; }
+        .nav-links a { text-decoration: none; color: #666; font-weight: 500; }
+        .nav-links a:hover { color: #2563eb; }
+        .hero { background: linear-gradient(135deg, #eff6ff 0%, #e0e7ff 100%); padding: 5rem 0; text-align: center; }
+        .hero h1 { font-size: 3rem; font-weight: bold; margin-bottom: 1rem; color: #1f2937; }
+        .hero p { font-size: 1.25rem; color: #6b7280; margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto; }
+        .btn { background: #2563eb; color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none; display: inline-block; font-weight: 500; }
+        .btn:hover { background: #1d4ed8; }
+        .btn-outline { background: transparent; color: #2563eb; border: 2px solid #2563eb; }
+        .btn-outline:hover { background: #eff6ff; }
+        .features { padding: 4rem 0; }
+        .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 3rem; }
+        .feature { text-align: center; padding: 1.5rem; }
+        .feature-icon { width: 60px; height: 60px; background: #eff6ff; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; }
+        .feature h3 { font-size: 1.25rem; margin-bottom: 1rem; }
+        .feature p { color: #6b7280; }
+        .about { background: #f9fafb; padding: 4rem 0; }
+        .about-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-top: 2rem; }
+        .about-card { background: white; padding: 1.5rem; border-radius: 8px; text-align: center; }
+        .footer { background: #f9fafb; padding: 3rem 0; text-align: center; border-top: 1px solid #e5e5e5; }
+        .footer-links { display: flex; justify-content: center; gap: 2rem; margin-bottom: 2rem; }
+        .footer-links a { color: #6b7280; text-decoration: none; }
+        .footer-links a:hover { color: #2563eb; }
+        @media (max-width: 768px) { .hero h1 { font-size: 2rem; } .nav-links { display: none; } }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-content">
+                <a href="#" class="logo">FlowCore Labs</a>
+                <div class="nav-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>Advanced Productivity Solutions</h1>
+            <p>FlowCore Labs develops cutting-edge research-driven tools and AI workflow optimization solutions for modern businesses and professionals.</p>
+            <a href="#about" class="btn" style="margin-right: 1rem;">Learn More</a>
+            <a href="#contact" class="btn btn-outline">Get In Touch</a>
+        </div>
+    </section>
+    <section class="features" id="features">
+        <div class="container">
+            <div style="text-align: center; margin-bottom: 2rem;">
+
+<h2 style="font-size: 2rem; margin-bottom: 1rem;">Our Focus Areas</h2>
+                <p style="color: #6b7280; font-size: 1.125rem;">Research-driven solutions for modern productivity challenges</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature">
+                    <div class="feature-icon">
+                        <svg width="24" height="24" fill="none" stroke="#2563eb" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                        </svg>
+                    </div>
+                    <h3>AI Workflow Optimization</h3>
+                    <p>Advanced AI-powered tools to streamline business processes and maximize efficiency.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        <svg width="24" height="24" fill="none" stroke="#10b981" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+                        </svg>
+                    </div>
+                    <h3>Data-Driven Insights</h3>
+                    <p>Research-backed methodologies to identify and eliminate productivity bottlenecks.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">
+                        <svg width="24" height="24" fill="none" stroke="#8b5cf6" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 100 4m0-4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 100 4m0-4v2m0-6V4"/>
+                        </svg>
+                    </div>
+                    <h3>Custom Solutions</h3>
+                    <p>Tailored productivity frameworks designed for specific industry needs and challenges.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="container">
+            <div style="text-align: center;">
+                <h2 style="font-size: 2rem; margin-bottom: 1rem;">About FlowCore Labs</h2>
+                <p style="color: #6b7280; font-size: 1.125rem; max-width: 800px; margin: 0 auto;">We are a research-driven organization focused on developing advanced productivity solutions that transform how modern businesses operate.</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-card">
+                    <h3 style="margin-bottom: 1rem;">Founded</h3>
+                    <p style="color: #6b7280;">2026</p>
+                </div>
+                <div class="about-card">
+                    <h3 style="margin-bottom: 1rem;">Focus</h3>
+                    <p style="color: #6b7280;">AI-Powered Productivity Solutions</p>
+                </div>
+                <div class="about-card">
+                    <h3 style="margin-bottom: 1rem;">Mission</h3>
+                    <p style="color: #6b7280;">Research-Driven Innovation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section style="padding: 4rem 0;" id="contact">
+        <div class="container">
+            <div style="text-align: center;">
+                <h2 style="font-size: 2rem; margin-bottom: 1rem;">Contact FlowCore Labs</h2>
+                <p style="color: #6b7280; font-size: 1.125rem; margin-bottom: 2rem;">Get in touch with our research team for productivity solutions and partnership opportunities.</p>
+                <div style="background: #eff6ff; padding: 2rem; border-radius: 8px; max-width: 600px; margin: 0 auto;">
+
+<h3 style="margin-bottom: 1rem;">Business Email</h3>
+                    <p style="font-size: 1.125rem; margin-bottom: 1rem;">
+                        <a href="mailto:takashiagent1129@gmail.com" style="color: #2563eb; text-decoration: none; font-weight: 500;">takashiagent1129@gmail.com</a>
+                    </p>
+                    <p style="color: #6b7280;">We typically respond within 24 hours during business days.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-links">
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div style="color: #2563eb; font-size: 1.25rem; font-weight: bold; margin-bottom: 1rem;">FlowCore Labs</div>
+            <p style="color: #6b7280; margin-bottom: 1rem;">Advanced Productivity Solutions Research Lab</p>
+            <p style="color: #9ca3af; font-size: 0.875rem;">© 2026 FlowCore Labs. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
